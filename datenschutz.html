@@ -146,8 +146,18 @@ footer a { color: var(--still); }
 <p>Erlaubst du Mitteilungen, erinnert dich die App an deine tägliche Übung. Diese Mitteilungen werden <strong>auf deinem Gerät</strong> erzeugt und geplant. Es wird <strong>kein</strong> Gerätetoken an uns oder an Dritte übermittelt, und die Erinnerungen laufen nicht über einen Server.</p>
 <ul><li><strong>Rechtsgrundlage:</strong> deine Erlaubnis im Systemdialog von iOS.</li></ul>
 <h3>3.10 Das Abonnement</h3>
-<p>Das Abonnement wird über den App Store von Apple abgewickelt. <strong>Wir erhalten keine Zahlungsdaten</strong> — keine Kartennummer, keine Bankverbindung, keine Rechnungsadresse. Wir erfahren von Apple nur, ob für dein Gerät ein gültiges Abonnement besteht.</p>
-<ul><li><strong>Rechtsgrundlage:</strong> Artikel 6 Absatz 1 Buchstabe b DSGVO.</li></ul>
+<p>Das Abonnement wird über den App Store von Apple abgewickelt. <strong>Wir erhalten keine Zahlungsdaten</strong> — keine Kartennummer, keine Bankverbindung, keine Rechnungsadresse. Wir erfahren nur, ob ein gültiges Abonnement besteht.</p>
+<p>Für die Verwaltung der Abonnements setzen wir <strong>RevenueCat</strong> ein (RevenueCat, Inc., USA). Der Dienst nimmt die Kaufmeldungen von Apple entgegen und sagt der App, ob dein Abonnement läuft. Dabei verarbeitet RevenueCat:</p>
+<ul><li>eine <strong>zufällige Kennung</strong>, die der Dienst selbst vergibt — wir</li></ul>
+<p>übermitteln <strong>nicht</strong> die Kennung deines Elara-Zugangs, die beiden sind also nicht miteinander verbunden,</p>
+<ul><li>die <strong>Gerätekennung des Herstellers</strong>, Land, Sprache und App-Version,</li><li>die <strong>Kaufvorgänge</strong>: welches Abonnement, wann begonnen, wann verlängert,</li></ul>
+<p>wann gekündigt,</p>
+<ul><li>deine <strong>IP-Adresse</strong>, technisch bedingt beim Abruf.</li></ul>
+<p>Wozu: damit dein Abonnement auf einem neuen Gerät wiederhergestellt werden kann, und damit wir erkennen, wie viele Menschen die Testzeit nutzen und dabeibleiben. <strong>Zu Werbezwecken wird nichts davon verwendet</strong>, und es wird nichts über Apps oder Dienste hinweg verfolgt.</p>
+<ul><li><strong>Rechtsgrundlage:</strong> Artikel 6 Absatz 1 Buchstabe b DSGVO (Erfüllung des</li></ul>
+<p>Vertrags) für die Verwaltung des Abonnements; Artikel 6 Absatz 1 Buchstabe f DSGVO (berechtigtes Interesse) für die Auswertung in Summe, um das Angebot zu verbessern.</p>
+<ul><li><strong>Übermittlung in die USA:</strong> auf Grundlage der</li></ul>
+<p>Standardvertragsklauseln der Europäischen Kommission.</p>
 <h3>3.11 Die Audiodateien</h3>
 <p>Die gesprochenen Geschichten liegen auf unserem Server und werden beim Abspielen geladen. Dabei fallen beim Hosting-Anbieter technisch bedingt Zugriffsdaten an (IP-Adresse, Zeitpunkt, angeforderte Datei). Diese Daten werden von uns nicht ausgewertet und nicht mit deinem Konto verknüpft.</p>
 <p>Die Stimmen wurden einmalig von uns erzeugt. <strong>Es wird nichts pro Person erzeugt</strong>, und es werden dafür keine Daten von Nutzern an den Anbieter der Sprachsynthese übermittelt.</p>
@@ -155,7 +165,8 @@ footer a { color: var(--still); }
 <p><strong>Supabase Inc.</strong> — Hosting von Datenbank, Dateien und Anmeldung. Die Daten liegen in einem Rechenzentrum in <strong>Irland</strong> (Europäische Union).</p>
 <p><strong>Anthropic PBC, USA</strong> — Zuordnung des eingetippten Wunsches, siehe Abschnitt 3.5.</p>
 <p><strong>Apple Inc., USA</strong> — Anmeldung, Abonnement und Verteilung der App.</p>
-<p>Mit Supabase besteht ein Vertrag zur Auftragsverarbeitung nach Artikel 28 DSGVO.</p>
+<p><strong>RevenueCat, Inc., USA</strong> — Verwaltung der Abonnements, siehe Abschnitt 3.10.</p>
+<p>Mit Supabase und RevenueCat bestehen Verträge zur Auftragsverarbeitung nach Artikel 28 DSGVO. Für die Übermittlung in die USA gelten die Standardvertragsklauseln der Europäischen Kommission.</p>
 <h2>5. Wie lange wir Daten speichern</h2>
 <ul><li><strong>Konto und Fortschritt:</strong> solange du die App nutzt. Löschst du dein</li></ul>
 <p>Konto, werden sie sofort gelöscht.</p>
