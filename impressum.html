@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Impressum — Elara</title>
+<meta name="description" content="Wer die App anbietet">
+<style>
+
+:root {
+  --grund:   #F1EFE8;
+  --karte:   #FFFFFF;
+  --linie:   rgba(0,0,0,.08);
+  --akzent:  #D85A30;
+  --tief:    #B9451F;
+  --schrift: #2C2C2A;
+  --leise:   #5F5E5A;
+  --still:   #9A9891;
+}
+:root:not([data-theme="light"]) {
+  @media (prefers-color-scheme: dark) {
+    --grund:   #1A1917;
+    --karte:   #232220;
+    --linie:   rgba(255,255,255,.10);
+    --akzent:  #E8764F;
+    --tief:    #D85A30;
+    --schrift: #EDEBE5;
+    --leise:   #B0ADA5;
+    --still:   #807D76;
+  }
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--grund); color: var(--schrift);
+  font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, system-ui, sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+.rand { max-width: 44rem; margin: 0 auto; padding: 2.5rem 1rem 4rem; }
+header { border-bottom: 1px solid var(--linie); padding-bottom: 1rem; margin-bottom: 2rem; }
+.marke { font-weight: 600; letter-spacing: .02em; color: var(--akzent); text-decoration: none; font-size: 1.05rem; }
+h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 1.5rem; text-wrap: balance; }
+h2 { font-size: 1.2rem; margin: 2.2rem 0 .6rem; text-wrap: balance; }
+h3 { font-size: 1.02rem; margin: 1.6rem 0 .4rem; color: var(--schrift); }
+p, li { color: var(--leise); }
+p { margin: 0 0 1rem; }
+ul { margin: 0 0 1rem; padding-left: 1.2rem; }
+li { margin-bottom: .4rem; }
+strong { color: var(--schrift); font-weight: 600; }
+a { color: var(--akzent); }
+a:hover { color: var(--tief); }
+.zurueck { display: inline-block; margin-bottom: 1.5rem; text-decoration: none; font-size: .95rem; }
+.zurueck:hover { text-decoration: underline; }
+.karten { display: grid; gap: .75rem; margin: 2rem 0; }
+.karte {
+  display: block; background: var(--karte); border: 1px solid var(--linie);
+  border-radius: 14px; padding: 1rem 1.1rem; text-decoration: none; color: inherit;
+}
+.karte:hover { border-color: var(--akzent); }
+.karte b { display: block; font-size: 1.05rem; margin-bottom: .15rem; color: var(--schrift); }
+.karte span { font-size: .92rem; color: var(--still); }
+footer { margin-top: 3rem; padding-top: 1.2rem; border-top: 1px solid var(--linie); font-size: .9rem; color: var(--still); }
+footer a { color: var(--still); }
+</style>
+</head>
+<body>
+<div class="rand">
+<header><a class="marke" href="./">Elara</a></header>
+<a class="zurueck" href="./">← Übersicht</a>
+<h1>Impressum</h1>
+<h2>Angaben gemäß § 5 Digitale-Dienste-Gesetz (DDG)</h2>
+<p>Arne Rang, Steinweg 20, 38100 Braunschweig, Deutschland</p>
+<h3>Kontakt</h3>
+<p>E-Mail: <a href="mailto:elara.app.business@gmx.de">elara.app.business@gmx.de</a></p>
+<h3>Umsatzsteuer-Identifikationsnummer</h3>
+<p>DE345842071</p>
+<h3>Verantwortlich für den Inhalt</h3>
+<p>Arne Rang, Steinweg 20, 38100 Braunschweig</p>
+<footer>
+Elara · <a href="mailto:elara.app.business@gmx.de">elara.app.business@gmx.de</a> ·
+<a href="impressum.html">Impressum</a> ·
+<a href="datenschutz.html">Datenschutz</a>
+</footer>
+</div>
+</body>
+</html>

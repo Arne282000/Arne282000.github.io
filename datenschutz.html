@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Datenschutz — Elara</title>
+<meta name="description" content="Welche Daten wir verarbeiten und warum">
+<style>
+
+:root {
+  --grund:   #F1EFE8;
+  --karte:   #FFFFFF;
+  --linie:   rgba(0,0,0,.08);
+  --akzent:  #D85A30;
+  --tief:    #B9451F;
+  --schrift: #2C2C2A;
+  --leise:   #5F5E5A;
+  --still:   #9A9891;
+}
+:root:not([data-theme="light"]) {
+  @media (prefers-color-scheme: dark) {
+    --grund:   #1A1917;
+    --karte:   #232220;
+    --linie:   rgba(255,255,255,.10);
+    --akzent:  #E8764F;
+    --tief:    #D85A30;
+    --schrift: #EDEBE5;
+    --leise:   #B0ADA5;
+    --still:   #807D76;
+  }
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--grund); color: var(--schrift);
+  font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, system-ui, sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+.rand { max-width: 44rem; margin: 0 auto; padding: 2.5rem 1rem 4rem; }
+header { border-bottom: 1px solid var(--linie); padding-bottom: 1rem; margin-bottom: 2rem; }
+.marke { font-weight: 600; letter-spacing: .02em; color: var(--akzent); text-decoration: none; font-size: 1.05rem; }
+h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 1.5rem; text-wrap: balance; }
+h2 { font-size: 1.2rem; margin: 2.2rem 0 .6rem; text-wrap: balance; }
+h3 { font-size: 1.02rem; margin: 1.6rem 0 .4rem; color: var(--schrift); }
+p, li { color: var(--leise); }
+p { margin: 0 0 1rem; }
+ul { margin: 0 0 1rem; padding-left: 1.2rem; }
+li { margin-bottom: .4rem; }
+strong { color: var(--schrift); font-weight: 600; }
+a { color: var(--akzent); }
+a:hover { color: var(--tief); }
+.zurueck { display: inline-block; margin-bottom: 1.5rem; text-decoration: none; font-size: .95rem; }
+.zurueck:hover { text-decoration: underline; }
+.karten { display: grid; gap: .75rem; margin: 2rem 0; }
+.karte {
+  display: block; background: var(--karte); border: 1px solid var(--linie);
+  border-radius: 14px; padding: 1rem 1.1rem; text-decoration: none; color: inherit;
+}
+.karte:hover { border-color: var(--akzent); }
+.karte b { display: block; font-size: 1.05rem; margin-bottom: .15rem; color: var(--schrift); }
+.karte span { font-size: .92rem; color: var(--still); }
+footer { margin-top: 3rem; padding-top: 1.2rem; border-top: 1px solid var(--linie); font-size: .9rem; color: var(--still); }
+footer a { color: var(--still); }
+</style>
+</head>
+<body>
+<div class="rand">
+<header><a class="marke" href="./">Elara</a></header>
+<a class="zurueck" href="./">← Übersicht</a>
+<h1>Datenschutzerklärung</h1>
+<p><strong>Stand: 5. Oktober 2026</strong></p>
+<h2>1. Wer verantwortlich ist</h2>
+<p>Arne Rang, Steinweg 20, 38100 Braunschweig, Deutschland</p>
+<p>E-Mail: <a href="mailto:elara.app.business@gmx.de">elara.app.business@gmx.de</a></p>
+<p>Verantwortlich im Sinne der Datenschutz-Grundverordnung (DSGVO) für die App Elara.</p>
+<h2>2. Das Wichtigste in drei Sätzen</h2>
+<p>Die App legt beim ersten Start einen <strong>anonymen Zugang</strong> an. Es wird kein Name, keine E-Mail-Adresse und keine Telefonnummer verlangt — nur eine Zufallskennung, mit der dein Fortschritt dem Gerät zugeordnet wird.</p>
+<p>Es gibt <strong>keine Werbung, keine Analysewerkzeuge und kein Verfolgen über andere Dienste oder Apps hinweg.</strong> Es sind keine Bausteine fremder Anbieter zur Messung oder Werbung eingebaut.</p>
+<p>Du kannst dein Konto in der App jederzeit löschen. Damit werden alle zu dir gespeicherten Daten entfernt.</p>
+<h2>3. Welche Daten verarbeitet werden</h2>
+<h3>3.1 Der Zugang</h3>
+<p>Beim ersten Start meldet die App dich <strong>anonym</strong> bei unserem Server an. Dabei entsteht eine Zufallskennung (eine sogenannte UUID). Sie enthält keine Angaben über dich und lässt sich nicht auf dich zurückführen.</p>
+<ul><li><strong>Welche Daten:</strong> Zufallskennung, Zeitpunkt der Anlage, Zeitpunkt des</li></ul>
+<p>letzten Zugriffs.</p>
+<ul><li><strong>Wozu:</strong> damit dein Fortschritt gespeichert und bei einem Neustart</li></ul>
+<p>wiedergefunden wird.</p>
+<ul><li><strong>Rechtsgrundlage:</strong> Artikel 6 Absatz 1 Buchstabe b DSGVO — die</li></ul>
+<p>Verarbeitung ist für die Nutzung der App erforderlich.</p>
+<h3>3.2 Anmeldung mit Apple (freiwillig)</h3>
+<p>Du kannst den anonymen Zugang mit <strong>„Mit Apple anmelden&quot;</strong> zu einem dauerhaften Konto aufwerten. Das ist freiwillig und nur dann sinnvoll, wenn du deinen Fortschritt auf einem neuen Gerät weiterführen willst.</p>
+<ul><li><strong>Welche Daten:</strong> die von Apple vergebene Nutzerkennung. Apple bietet</li></ul>
+<p>dir dabei an, deinen Namen und deine E-Mail-Adresse zu teilen oder zu verbergen; du entscheidest das im Dialog von Apple.</p>
+<ul><li><strong>Wozu:</strong> damit dein Konto auf einem anderen Gerät wiedergefunden wird.</li><li><strong>Rechtsgrundlage:</strong> Artikel 6 Absatz 1 Buchstabe b DSGVO.</li></ul>
+<p>Anbieter dieser Anmeldung ist Apple Inc., One Apple Park Way, Cupertino, CA 95014, USA. Es gilt die Datenschutzerklärung von Apple.</p>
+<h3>3.3 Deine Ziele und Einträge</h3>
+<p>Damit die App dir die passenden Geschichten zeigt, speichert sie, was du eingerichtet hast:</p>
+<ul><li>die gewählten Lebensbereiche und Ziele,</li><li>die gewählte Ausprägung eines Ziels (etwa ein Betrag, ein Ort, eine</li></ul>
+<p>Automarke),</p>
+<ul><li>den Wunsch, den du im Einstieg in eigenen Worten eintippen kannst,</li><li>deine Angaben zu Partnerschaft, Kindern und Haustieren, soweit du sie</li></ul>
+<p>machst, weil einzelne Sätze der Geschichten darauf eingehen,</p>
+<ul><li>deine täglichen Rückmeldungen, deine Dankbarkeits-Einträge und welche</li></ul>
+<p>Geschichten du gehört hast,</p>
+<ul><li>deinen Spielstand: Punkte, Serie, Ruhetage, gefundene Kleidungsstücke.</li></ul>
+<p>Diese Daten liegen auf deinem Gerät und werden zusätzlich auf unserem Server gesichert, damit sie bei einem Gerätewechsel nicht verloren gehen.</p>
+<ul><li><strong>Wozu:</strong> damit die App die zu dir passenden Inhalte auswählt und dein</li></ul>
+<p>Fortschritt erhalten bleibt.</p>
+<ul><li><strong>Rechtsgrundlage:</strong> Artikel 6 Absatz 1 Buchstabe b DSGVO; für die unter</li></ul>
+<p>3.4 genannten besonderen Daten zusätzlich deine ausdrückliche Einwilligung nach Artikel 9 Absatz 2 Buchstabe a DSGVO.</p>
+<h3>3.4 Ziele, die Gesundheit betreffen</h3>
+<p>Einige Ziele betreffen deine Gesundheit — zum Beispiel „Mein Wunschgewicht&quot;, „Erholsamer Schlaf&quot; oder „Essen, das mir guttut&quot;. Wählst du ein solches Ziel, verarbeiten wir damit <strong>Gesundheitsdaten</strong> im Sinne von Artikel 9 DSGVO.</p>
+<p>Dafür fragt die App dich <strong>ausdrücklich um Einwilligung</strong>, bevor ein solches Ziel gespeichert wird. Ohne diese Einwilligung kannst du die App nutzen, aber keine Ziele aus diesem Bereich wählen.</p>
+<p>Diese Ziele gibt es erst <strong>ab 16 Jahren</strong>. Hast du im Einstieg ein Alter darunter angegeben, stehen sie nicht in der Liste — denn unter 16 kann man in Gesundheitsdaten nicht selbst einwilligen (Artikel 8 DSGVO).</p>
+<p>Du kannst die Einwilligung jederzeit unter „Ich&quot; widerrufen. Dann werden die betroffenen Ziele und alles, was daran hing, gelöscht. Die Rechtmäßigkeit der Verarbeitung bis zum Widerruf bleibt davon unberührt.</p>
+<h3>3.5 Der Wunsch in eigenen Worten und die KI</h3>
+<p>Im Einstieg kannst du in einem Feld frei eintippen, was du dir wünschst. Dieser Text wird <strong>einmalig</strong> an einen KI-Dienst weitergegeben, der daraus Vorschläge für passende Ziele aus unserem festen Katalog macht. Du bestätigst oder änderst die Vorschläge anschließend selbst.</p>
+<ul><li><strong>Empfänger:</strong> Anthropic PBC, 548 Market Street, San Francisco, CA</li></ul>
+<p>94104, USA.</p>
+<ul><li><strong>Was übermittelt wird:</strong> ausschließlich der von dir eingetippte Text</li></ul>
+<p>und die Liste unserer Ziele. <strong>Keine</strong> Nutzerkennung, kein Name, keine weiteren Angaben über dich.</p>
+<ul><li><strong>Speicherung:</strong> Der Text wird für diese eine Anfrage übermittelt und</li></ul>
+<p>von uns nicht gespeichert.</p>
+<ul><li><strong>Rechtsgrundlage:</strong> Artikel 6 Absatz 1 Buchstabe b DSGVO; betrifft dein</li></ul>
+<p>Wunsch die Gesundheit, zusätzlich Artikel 9 Absatz 2 Buchstabe a DSGVO (ausdrückliche Einwilligung).</p>
+<ul><li><strong>Übermittlung in die USA:</strong> Die Weitergabe erfolgt auf Grundlage der</li></ul>
+<p>Standardvertragsklauseln der Europäischen Kommission.</p>
+<p><strong>Du musst dieses Feld nicht benutzen.</strong> Du kannst deine Ziele auch direkt aus der Liste auswählen; dann wird kein Text an die KI übermittelt.</p>
+<p>Es findet <strong>keine automatisierte Entscheidung</strong> im Sinne von Artikel 22 DSGVO statt: Die KI macht Vorschläge, die Auswahl trifft du.</p>
+<h3>3.6 Die Rangliste</h3>
+<p>Die App enthält eine Rangliste, in der du deinen Fortschritt mit anderen vergleichen kannst. Nimmst du daran teil, sind für andere Nutzer sichtbar:</p>
+<ul><li>der <strong>Anzeigename</strong>, den du selbst wählst,</li><li>deine Punkte, deine Serie und die Zahl deiner Tage,</li><li>dein <strong>Jahrgang</strong>, wenn du die Rangliste nach Jahrgang nutzt,</li><li>der Lebensbereich, in dem du am aktivsten bist.</li></ul>
+<p>Dein Anzeigename muss nicht dein echter Name sein.</p>
+<ul><li><strong>Rechtsgrundlage:</strong> Artikel 6 Absatz 1 Buchstabe a DSGVO — deine</li></ul>
+<p>Einwilligung.</p>
+<ul><li><strong>Widerruf:</strong> In den Einstellungen kannst du die Sichtbarkeit jederzeit</li></ul>
+<p>abschalten. Danach erscheinst du nicht mehr in der Rangliste.</p>
+<h3>3.7 Rückmeldungen an uns</h3>
+<p>Schreibst du uns über die App eine Rückmeldung, speichern wir den Text und den Zeitpunkt zusammen mit deiner Zufallskennung.</p>
+<ul><li><strong>Wozu:</strong> damit wir antworten und Fehler beheben können.</li><li><strong>Rechtsgrundlage:</strong> Artikel 6 Absatz 1 Buchstabe f DSGVO — unser</li></ul>
+<p>berechtigtes Interesse an der Verbesserung der App.</p>
+<h3>3.8 Schutz vor Missbrauch (Gerätenachweis)</h3>
+<p>Die Zuordnung deines Wunsches durch die KI kostet uns Geld. Damit niemand auf unsere Kosten beliebig viele Anfragen erzeugt, weist die App bei dieser einen Funktion nach, dass sie auf einem echten Apple-Gerät läuft (Apples Verfahren „App Attest&quot;). Dabei entsteht ein Schlüsselpaar im Sicherheitschip deines Geräts; der öffentliche Teil wird bei uns gespeichert.</p>
+<ul><li><strong>Welche Daten:</strong> öffentlicher Schlüssel, ein Zähler, Zeitpunkte, ein</li></ul>
+<p>Protokoll der Prüfungen, verbrauchter Betrag im Monat.</p>
+<ul><li><strong>Wozu:</strong> Missbrauchs- und Kostenschutz.</li><li><strong>Rechtsgrundlage:</strong> Artikel 6 Absatz 1 Buchstabe f DSGVO.</li></ul>
+<h3>3.9 Erinnerungen</h3>
+<p>Erlaubst du Mitteilungen, erinnert dich die App an deine tägliche Übung. Diese Mitteilungen werden <strong>auf deinem Gerät</strong> erzeugt und geplant. Es wird <strong>kein</strong> Gerätetoken an uns oder an Dritte übermittelt, und die Erinnerungen laufen nicht über einen Server.</p>
+<ul><li><strong>Rechtsgrundlage:</strong> deine Erlaubnis im Systemdialog von iOS.</li></ul>
+<h3>3.10 Das Abonnement</h3>
+<p>Das Abonnement wird über den App Store von Apple abgewickelt. <strong>Wir erhalten keine Zahlungsdaten</strong> — keine Kartennummer, keine Bankverbindung, keine Rechnungsadresse. Wir erfahren von Apple nur, ob für dein Gerät ein gültiges Abonnement besteht.</p>
+<ul><li><strong>Rechtsgrundlage:</strong> Artikel 6 Absatz 1 Buchstabe b DSGVO.</li></ul>
+<h3>3.11 Die Audiodateien</h3>
+<p>Die gesprochenen Geschichten liegen auf unserem Server und werden beim Abspielen geladen. Dabei fallen beim Hosting-Anbieter technisch bedingt Zugriffsdaten an (IP-Adresse, Zeitpunkt, angeforderte Datei). Diese Daten werden von uns nicht ausgewertet und nicht mit deinem Konto verknüpft.</p>
+<p>Die Stimmen wurden einmalig von uns erzeugt. <strong>Es wird nichts pro Person erzeugt</strong>, und es werden dafür keine Daten von Nutzern an den Anbieter der Sprachsynthese übermittelt.</p>
+<h2>4. Wer die Daten für uns verarbeitet</h2>
+<p><strong>Supabase Inc.</strong> — Hosting von Datenbank, Dateien und Anmeldung. Die Daten liegen in einem Rechenzentrum in <strong>Irland</strong> (Europäische Union).</p>
+<p><strong>Anthropic PBC, USA</strong> — Zuordnung des eingetippten Wunsches, siehe Abschnitt 3.5.</p>
+<p><strong>Apple Inc., USA</strong> — Anmeldung, Abonnement und Verteilung der App.</p>
+<p>Mit Supabase besteht ein Vertrag zur Auftragsverarbeitung nach Artikel 28 DSGVO.</p>
+<h2>5. Wie lange wir Daten speichern</h2>
+<ul><li><strong>Konto und Fortschritt:</strong> solange du die App nutzt. Löschst du dein</li></ul>
+<p>Konto, werden sie sofort gelöscht.</p>
+<ul><li><strong>Rückmeldungen:</strong> bis die Sache erledigt ist, höchstens zwei Jahre.</li><li><strong>Gerätenachweis und Verbrauchszähler:</strong> bis zum Löschen des Kontos.</li><li><strong>Der eingetippte Wunsch:</strong> wird nicht gespeichert; die daraus</li></ul>
+<p>gewählten Ziele werden mit deinem Fortschritt gespeichert.</p>
+<h2>6. Dein Konto löschen</h2>
+<p>In der App unter <strong>Ich → Konto löschen</strong>. Damit werden gelöscht:</p>
+<p>dein Zugang, deine Sicherung mit allen Zielen, Einträgen und Dankbarkeits-Notizen, dein Eintrag in der Rangliste, dein Aktivitätsprotokoll, deine Rückmeldungen, dein Spielstand, der Geräteschlüssel und die Verbrauchszähler.</p>
+<p>Das lässt sich nicht widerrufen.</p>
+<h2>7. Deine Rechte</h2>
+<p>Du hast das Recht auf Auskunft (Artikel 15 DSGVO), Berichtigung (Artikel 16), Löschung (Artikel 17), Einschränkung der Verarbeitung (Artikel 18), Datenübertragbarkeit (Artikel 20) und Widerspruch (Artikel 21). Erteilte Einwilligungen kannst du jederzeit widerrufen.</p>
+<p>Wende dich dafür an <a href="mailto:elara.app.business@gmx.de">elara.app.business@gmx.de</a>.</p>
+<p>Du kannst dich außerdem bei einer Datenschutz-Aufsichtsbehörde beschweren, etwa bei der für deinen Wohnort zuständigen Behörde oder bei der Landesbeauftragten für den Datenschutz Niedersachsen, Prinzenstraße 5, 30159 Hannover.</p>
+<h2>8. Kinder und Jugendliche</h2>
+<p>Die App darfst du ab <strong>9 Jahren</strong> nutzen.</p>
+<p>Eine Sache geht erst ab <strong>16 Jahren</strong>, weil man darunter nach Artikel 8 DSGVO nicht selbst einwilligen kann — das betrifft die Ziele, die deinen Körper betreffen (Abschnitt 3.4). Gibst du im Einstieg ein Alter unter 16 an, stehen diese Ziele gar nicht zur Auswahl.</p>
+<p>In der Rangliste steht der Name, den du dir selbst gegeben hast — ein erfundener reicht — neben deinen Punkten. Du kannst dich dort jederzeit ausblenden.</p>
+<p>Wir können dein Alter nicht überprüfen. Wir fragen danach, und wir verlassen uns auf deine Angabe.</p>
+<h2>9. Änderungen</h2>
+<p>Wir passen diese Erklärung an, wenn sich die App ändert. Die jeweils geltende Fassung ist in der App abrufbar.</p>
+<footer>
+Elara · <a href="mailto:elara.app.business@gmx.de">elara.app.business@gmx.de</a> ·
+<a href="impressum.html">Impressum</a> ·
+<a href="datenschutz.html">Datenschutz</a>
+</footer>
+</div>
+</body>
+</html>
